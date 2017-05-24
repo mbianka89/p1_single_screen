@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.android.smartgamepiano.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        //Here comes the title of the business.
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/textSize" />
+
+        //3 navigational buttons grouped in a horizontal linear layout.
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/About"
+                android:textSize="@dimen/buttonText" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Services"
+                android:textSize="@dimen/buttonText" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Translation"
+                android:textSize="@dimen/buttonText" />
+
+        </LinearLayout>
+
+        //Here is a photo representing this online business.
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/miraclelogo" />
+
+        //Here is info1: description of the business.
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/descriptionText" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/skypeLogoHeight"
+            android:src="@drawable/skype2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:layout_width="@dimen/fbWidth"
+                android:layout_height="@dimen/fbHeight"
+                android:src="@drawable/fb" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="@dimen/twWidth"
+                android:layout_height="@dimen/twHeight"
+                android:src="@drawable/twitter" />
+
+            //Here are info2+info3 about the business:email+website
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/emailAndWebsite"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/buttonText" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

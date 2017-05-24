@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textSize">30sp</dimen>
+    <dimen name="buttonText">15sp</dimen>
+    <dimen name="descriptionText">20sp</dimen>
+    <dimen name="skypeLogoHeight">100dp</dimen>
+    <dimen name="fbWidth">39dp</dimen>
+    <dimen name="fbHeight">52dp</dimen>
+    <dimen name="twWidth">47dp</dimen>
+    <dimen name="twHeight">50dp</dimen>
+
+</resources>
